@@ -2,6 +2,19 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Problem Statement
+
+Use the public API available at https://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline
+to create a single page that displays the products in a [Material UI](https://mui.com/material-ui/getting-started/overview/) table.
+
+On each row of the table, create an "Add to cart" button. When the button is clicked,
+add the product ID with a quantity of 1 to the cart. Each subsequent click will add 1 to that same product ID
+
+Somewhere on the page, create a "Cart" button. Clicking the cart button should display a modal
+showing what is currently in the cart. Displaying cart content as non-formatted JSON is acceptable
+
+Cart contents should persist through a refresh
+
 ## Available Scripts
 
 In the project directory, you can run:
